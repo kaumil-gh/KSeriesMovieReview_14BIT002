@@ -15,6 +15,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".BatmanBegins" />
+        <activity android:name=".TheDarkKnight" />
+        <activity android:name=".TheDarkKnightRises" />
+        <activity android:name=".MovieList"></activity>
     </application>
 
 </manifest>

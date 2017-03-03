@@ -8,10 +8,23 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.gryffin.kseriesmoviereview_14bit002.MainActivity">
+    tools:context="com.example.gryffin.kseriesmoviereview_14bit002.MainActivity"
+    tools:background="@color/colorPrimaryDark"
+    android:background="@color/colorPrimaryDark">
 
-    <TextView
+    <Button
+        android:text="Welcome! Lets see some Movies!"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/button"
+        tools:layout_height="100dp"
+        android:textSize="18sp"
+        tools:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_green_light"
+        android:background="@android:color/transparent"
+        tools:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="170dp" />
 </RelativeLayout>
