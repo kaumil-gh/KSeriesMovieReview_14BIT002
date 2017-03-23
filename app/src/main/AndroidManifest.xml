@@ -15,10 +15,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".TabbedMovies"
+            android:label="Movie Categories"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".BatmanBegins" />
         <activity android:name=".TheDarkKnight" />
         <activity android:name=".TheDarkKnightRises" />
-        <activity android:name=".MovieList"></activity>
+        <activity android:name=".MovieList" />
     </application>
 
 </manifest>

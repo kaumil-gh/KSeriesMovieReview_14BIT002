@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // Perform action on click
 
-                Intent i = new Intent(MainActivity.this, MovieList.class);
+                Intent i = new Intent(MainActivity.this, TabbedMovies.class);
                 startActivity(i);
             }
         });
